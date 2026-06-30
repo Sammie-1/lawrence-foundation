@@ -5,9 +5,11 @@ import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import DonateModal from "@/components/DonateModal";
 
 export default function Home() {
   const [heroTypingDone, setHeroTypingDone] = useState(false);
+  const [isDonateModalOpen, setIsDonateModalOpen] = useState(false);
 
   return (
     <div className="min-h-screen bg-white">
@@ -324,9 +326,12 @@ export default function Home() {
             <a href="#" className="w-full sm:w-auto text-center bg-white text-gray-900 hover:bg-gray-50 px-8 py-4 rounded-full font-medium transition-all shadow-sm border border-gray-200 hover:shadow-md">
               Become a partner
             </a>
-            <a href="#" className="w-full sm:w-auto text-center bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-medium transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5">
+            <button 
+              onClick={() => setIsDonateModalOpen(true)}
+              className="w-full sm:w-auto text-center bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-medium transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+            >
               Donate Now
-            </a>
+            </button>
             <a href="#" className="w-full sm:w-auto text-center bg-white text-gray-900 hover:bg-gray-50 px-8 py-4 rounded-full font-medium transition-all shadow-sm border border-gray-200 hover:shadow-md">
               Volunteer with us
             </a>
@@ -360,6 +365,11 @@ export default function Home() {
       </section>
 
       <Footer />
+
+      <DonateModal 
+        isOpen={isDonateModalOpen} 
+        onClose={() => setIsDonateModalOpen(false)} 
+      />
     </div>
   );
 }
