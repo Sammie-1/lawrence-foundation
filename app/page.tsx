@@ -173,7 +173,7 @@ export default function Home() {
             {[
               {
                 title: "From a Collapsed Classroom to a State Scholarship",
-                body: "When RootBridge rebuilt Alhajiya Halima School in rural Kano, Abdullahi — 13 — hadn't attended school in two years. Today, he holds a state government scholarship and dreams of becoming an engineer.",
+                body: "When the Lawrence Iyere Foundation rebuilt Alhajiya Halima School in rural Kano, Abdullahi — 13 — hadn't attended school in two years. Today, he holds a state government scholarship and dreams of becoming an engineer.",
                 initials: "AM",
                 name: "Abdullahi Musa",
                 role: "Kano, Northern Nigeria - Education Program"
@@ -279,7 +279,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 w-full mb-14">
             {[
-              { img: "/assets/kids.png", tag: "Impact Report", title: "2024 Annual Impact Report: A Year of Transformation", desc: "An in-depth look at how RootBridge Foundation impacted over 50,000 lives across 15 Nigerian states in the past year.", date: "March 15, 2024" },
+              { img: "/assets/kids.png", tag: "Impact Report", title: "2024 Annual Impact Report: A Year of Transformation", desc: "An in-depth look at how the Lawrence Iyere Foundation impacted over 50,000 lives across 15 Nigerian states in the past year.", date: "March 15, 2024" },
               { img: "/assets/program-6.png", tag: "Environment", title: "Green Nigeria: 120,000 Trees and Counting", desc: "How our community-led reforestation program is combating desertification across the Sahel region.", date: "February 28, 2024" },
               { img: "/assets/program-5.png", tag: "Infrastructure", title: "Connecting Rural Communities: The Road to Progress", desc: "New rural road projects are transforming access to markets, schools, and healthcare for thousands.", date: "January 20, 2024" }
             ].map((article, i) => (

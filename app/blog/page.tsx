@@ -21,7 +21,7 @@ const articles = [
     date: "MAY 18, 2025",
     category: "HEALTHCARE",
     title: "How Community Health Workers Are Transforming Rural Healthcare",
-    desc: "Trained and deployed by RootBridge, our network of 2,400 community health workers is changing outcomes for millions who never saw a doctor before.",
+    desc: "Trained and deployed by the Lawrence Iyere Foundation, our network of 2,400 community health workers is changing outcomes for millions who never saw a doctor before.",
     slug: "/blog/community-health-workers"
   },
   {
