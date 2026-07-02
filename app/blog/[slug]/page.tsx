@@ -102,7 +102,7 @@ export default function BlogPost() {
               Early tree-planting campaigns in Nigeria often failed because seedlings were planted without community buy-in and without post-planting care. Our model is different: we start with community dialogues, train local nursery operators, use locally-appropriate species, and establish a 5-year monitoring system that pays community members to maintain planted areas.
             </p>
 
-            <h2 className="text-[20px] md:text-[22px] font-extrabold text-gray-900 mb-4 tracking-tight">The RootBridge Response</h2>
+            <h2 className="text-[20px] md:text-[22px] font-extrabold text-gray-900 mb-4 tracking-tight">The Lawrence Iyere Foundation Response</h2>
             <p className="text-[15px] text-gray-600 leading-[1.8] mb-8 font-normal">
               Our Green Nigeria model combines tree planting with three complementary interventions: borehole drilling for clean water access, solar-powered irrigation for small farms, and climate education in partner schools. The idea is simple — trees alone don't change livelihoods. Trees plus water plus education creates communities that have both the reason and the capacity to protect their environment.
             </p>

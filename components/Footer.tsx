@@ -82,7 +82,7 @@ export default function Footer() {
                 </svg>
                 <div className="flex flex-col">
                   <span className="font-semibold text-gray-900 mb-1">Email</span>
-                  <a href="mailto:info@rootbridgeng.org" className="hover:text-[#22c55e] transition-colors font-normal">info@rootbridgeng.org</a>
+                  <a href="mailto:info@lawrenceiyerefoundation.org" className="hover:text-[#22c55e] transition-colors font-normal">info@lawrenceiyerefoundation.org</a>
                 </div>
               </li>
             </ul>
